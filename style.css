@@ -15,19 +15,19 @@ img {
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: #3b82f6;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
 }
 
 .header {
-    background-color: green;
+    background-color: #eff6ff;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
 
 .main-content {
-    background-color: red;
+    background-color: #e0e7ff;
     grid-column: 2 / 3;
     grid-row: 2 / 4;
 }
