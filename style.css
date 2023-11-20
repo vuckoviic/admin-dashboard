@@ -31,3 +31,57 @@ img {
     grid-column: 2 / 3;
     grid-row: 2 / 4;
 }
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, minmax(30px, 50px));
+    padding: 8%;
+}
+
+.sidebar-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0;
+    align-items: center;
+}
+
+.side-content1 {
+    grid-row: 1 / 2;
+}
+
+.side-content2 {
+    grid-row: 3 / 4;
+}
+
+.side-content3 {
+    grid-row: 4 / 5;
+}
+
+.side-content4 {
+    grid-row: 5 / 6;
+}
+
+.side-content5 {
+    grid-row: 6 / 7;
+}
+
+.side-content6 {
+    grid-row: 7 / 8;
+}
+
+.side-content7 {
+    grid-row: 9 / 10;
+}
+
+.side-content8 {
+    grid-row: 10 / 11;
+}
+
+.side-content9 {
+    grid-row: 11 / 12;
+}
+
+.side-content10 {
+    grid-row: 12 / 13;
+}
