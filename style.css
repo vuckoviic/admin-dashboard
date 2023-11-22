@@ -105,17 +105,10 @@ img {
 .search-bar {
     background-color: lightgrey;
     border-radius: 25px;
-    height: 80px;
+    height: 40%;
+    width: 80%;
 }
 
 #notifications{
     grid-column: 4 / 5;
-}
-
-#profilePicture{
-
-}
-
-#username{
-
 }
