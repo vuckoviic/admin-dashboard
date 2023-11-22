@@ -25,6 +25,16 @@ img {
     background-color: #eff6ff;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.header1 {
+    display: grid;
+    background-color: #eff6ff;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
 }
 
 .main-content {
@@ -90,4 +100,22 @@ img {
 
 .sidebar p {
     font-size: 1.4em;
+}
+
+.search-bar {
+    background-color: lightgrey;
+    border-radius: 25px;
+    height: 80px;
+}
+
+#notifications{
+    grid-column: 4 / 5;
+}
+
+#profilePicture{
+
+}
+
+#username{
+
 }
