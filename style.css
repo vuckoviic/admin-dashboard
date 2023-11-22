@@ -49,6 +49,7 @@ img {
 
 .side-content1 {
     grid-row: 1 / 2;
+    font-size: 1.2em;
 }
 
 .side-content2 {
@@ -85,4 +86,8 @@ img {
 
 .side-content10 {
     grid-row: 12 / 13;
+}
+
+.sidebar p {
+    font-size: 1.4em;
 }
