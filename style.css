@@ -130,6 +130,27 @@ img {
     width: 80%;
 }
 
-#notifications{
+#notifications {
     grid-column: 4 / 5;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.main-projects {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.main-announcements {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.trending {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
