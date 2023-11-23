@@ -138,6 +138,7 @@ img {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2, 1fr);
+    gap: 5%;
 }
 
 .main-projects {
@@ -152,5 +153,40 @@ img {
 
 .trending {
     grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.content-card {
+    display: grid;
+    grid-template-columns: 10px 3fr repeat(3, 1fr);
+    grid-template-rows: 1fr 3fr 1fr;
+    border-radius: 2%;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+    grid-row: 3 / 4;
+}
+
+.icon1 {
+    grid-column: 3 / 4;
+}
+
+.icon2 {
+    grid-column: 4 / 5;
+}
+
+.icon3 {
+    grid-column: 5 / 6;
+}
+
+.card-color {
+    background-color: darkorange;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+.card-lorem {
     grid-row: 2 / 3;
 }
