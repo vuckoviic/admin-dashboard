@@ -194,7 +194,7 @@ img {
 .card-lorem {
     grid-row: 2 / 3;
     grid-column: 1 / 6;
-    padding-left: 15px;
+    padding-left: 25px;
     font-size: 1em;
     color: rgb(97, 97, 97);
 }
@@ -224,10 +224,11 @@ img {
 
 .card-head {
     padding-top: 15px;
-    padding-left: 5px;
+    padding-left: 15px;
     display: flex;
     align-items: end;
     font-size: 1.2em;
+    margin-top: 25px;
 }
 
 .main-announcements {
@@ -255,6 +256,12 @@ img {
     color: rgb(97, 97, 97);
 }
 
-.announcements:nth-child(1) {
-    border-radius: 25px;
+.ann1 {
+    border-radius: 25px 25px 0 0;
+    border-bottom: 2px solid lightgrey;
+}
+
+.ann3 {
+    border-radius: 0 0 25px 25px;
+    border-top: 1px solid lightgrey;
 }
