@@ -274,3 +274,9 @@ img {
 .ann-lorem2 {
     border-bottom: 2px solid lightgrey;
 }
+
+.trending {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(9, 1fr);
+}
