@@ -329,6 +329,7 @@ img[src="images/profile-woman.svg"] {
     column-gap: 15px;
     row-gap: 3px;
     margin-bottom: 40px;
+    border-radius: 25px;
 }
 
 .trending-p {
