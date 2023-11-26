@@ -69,6 +69,7 @@ img {
     background-color: #e0e7ff;
     grid-column: 2 / 3;
     grid-row: 2 / 4;
+    overflow: auto;
 }
 
 .sidebar {
@@ -153,6 +154,7 @@ img {
 .main-projects {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    margin-bottom: 50px;
 }
 
 .main-announcements {
@@ -325,10 +327,13 @@ img[src="images/profile-woman.svg"] {
     margin-right: 30px;
     width: 300px;
     column-gap: 15px;
+    row-gap: 3px;
+    margin-bottom: 40px;
 }
 
 .trending-p {
     background-color: #e0e7ff;
+    padding-bottom: 20px;
 }
 
 .status1,
@@ -362,4 +367,11 @@ img[src="images/dashboard.svg"] {
 .header2 img {
     margin-left: auto;
     height: 60px;
+}
+
+.trending-avatar1,
+.trending-avatar2,
+.trending-avatar3,
+.trending-avatar4 {
+    padding-left: 25px;
 }
